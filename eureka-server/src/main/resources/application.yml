@@ -1,0 +1,17 @@
+server:
+  #定义注册中心的端口
+  port: 7000
+eureka:
+  server:
+    #设定自我保护模式
+    enable-self-preservation: true
+  instance:
+    #eureka服务的实例名称
+    hostname: localhost
+  client:
+    #由于开启eureka时,本机也会被视为客户端,因此设定不注册自己(本身自己就是注册中心)
+    register-with-eureka: false
+    #表示自己就是注册中心,不需要检索服务(不需要知道作为客户端来说的负载均衡检索(知道哪些服务是否可以使用))
+    fetch-registry: false
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

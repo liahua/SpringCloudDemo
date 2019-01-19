@@ -1,0 +1,41 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/
+eureka-server/.gitignore
+eureka-server/.mvn/
+eureka-server/mvnw
+eureka-server/mvnw.cmd
+
+eureka-server/src/test/
+
+springcloud-1-comsumer-8020/.gitignore
+springcloud-1-comsumer-8020/.mvn/
+springcloud-1-comsumer-8020/mvnw
+springcloud-1-comsumer-8020/mvnw.cmd
+
+springcloud-1-comsumer-8020/src/test/
+springcloud-1-provider-8000/.gitignore
+springcloud-1-provider-8000/.mvn/
+springcloud-1-provider-8000/mvnw
+springcloud-1-provider-8000/mvnw.cmd
+
+springcloud-1-provider-8000/src/test/
+springcloud-1-provider-8001/.gitignore
+
+springcloud-1-provider-8001/src/test/
+springcloud-api/.gitignore
+springcloud-api/.mvn/
+springcloud-api/mvnw
+springcloud-api/mvnw.cmd
+
+springcloud-api/src/test/
+springcloud.iml
+target/
